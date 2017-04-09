@@ -19,7 +19,25 @@
 		<script type="text/javascript" src="C:/Users/Admin/Desktop/Insight/basicslider.js"></script>
 		
 	<style>	
-			
+			// This bootstrap variable
+$screen-sm-min: 768px
+
+.navbar_container
+  // The original margin pushes the carousel down when on mobile
+  // we could have used .navbar-static-top but.. meh
+  nav
+    margin-bottom: 0px
+
+  @media (min-width: $screen-sm-min)
+    position: fixed
+    width:    100%
+    top:      50px
+    z-index:  1000
+
+  // for mobile the remove the padding from the container
+  @media (max-width: $screen-sm-min)
+    .container
+      padding: 0px
 	</style>
 	
 	<meta charset="utf-8">
