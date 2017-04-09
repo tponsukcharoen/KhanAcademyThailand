@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.2.min.css" type="text/css" />
+        
+		<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.2.min.js"></script>
+		<script type="text/javascript">
+			Bokeh.set_log_level("info");
+		</script>
+		<script type="text/javascript" src="C:/Users/Admin/Desktop/Insight/basicslider.js"></script>
+		
+	<style>
+		
+	</style>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Khan Academy Thailand</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+	
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html#"> <b>Khan Academy Thailand คานอะคาเดมี่ประเทศไทย</b> สื่อการเรียนรู้ระดับโลก ฟรีสำหรับทุกคนทุกหนแห่งในรูปแบบภาษาไทย </a>
+            </div>
+            
+          </div>
+        </nav>
+		
+		<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html#"><img alt="Brand" src="KhanAcademyLogo.jpg" height="30"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">วิชา <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+			<li><a href="index.html#Math by subject">คณิตศาสตร์ตามวิชา</a></li>
+			<li><a href="index.html#Math by grade">คณิตศาสตร์ตามระดับชั้น</a></li>
+			<li><a href="index.html#Science">วิทยาศาสตร์</a></li>
+			<li><a href="index.html#Computing">คอมพิวเตอร์</a></li>
+			<li><a href="index.html#Art & Humanities">ศิลปะและมนุษยศาสตร์</a></li>
+			<li><a href="index.html#Economics and finance">เศรษฐศาสตร์และการเงิน</a></li>
+			<li><a href="index.html#Test prep">เตรียมสอบ</a></li>
+			<li><a href="index.html#Partner">หน่วยงานที่ร่วมมือ</a></li>
+			<li><a href="index.html#(No domain)">(ไม่มีโดเมน)</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="หัวข้อ...">
+        </div>
+        <button type="submit" class="btn btn-default">ค้นหา</button>
+      </form>
+	  <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html#AboutUs">เกี่ยวกับเรา</a></li>
+      </ul>
+	  <!--li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li-->
+      <!--li><a href="#">Link</a></li-->
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+      </div>
+    </div>
+
+    <!-- Marketing messaging and featurettes
+     ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+            <div class="container marketing">
+
+                <!-- Three columns of text below the carousel -->
+              <div class="row">
+                <div class="col-lg-11">
+                  <h2>วิทยาศาสตร์ > ชีววิทยา</h2>
+                </div><!-- /.col-lg-4 -->
+
+
+              </div><!-- /.row -->
+              
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">เคมีของชีวิต</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>ธาตุและอะตอม</b></td><td>ธาตุและอะตอม</td><td>| <a href="https://www.youtube.com/watch?v=IFKnq9QM6_A">คลิปพร้อมซับไตเติ้ล</a> | </td></tr><tr><td></td><td>อะตอมเบื้องต้น</td><td>| <a href="https://www.youtube.com/watch?v=1xSQlwWGT8M">คลิปพร้อมซับไตเติ้ล</a> | </td></tr><tr><td><b>ชั้นอิเล็กตรอนและ orbital</b></td><td>Orbitals</td><td>| <a href="https://www.youtube.com/watch?v=yBrp8uvNAhI">คลิปพร้อมซับไตเติ้ล</a> | </td></tr><tr><td></td><td>เพิ่มเติมเรื่อง orbitals และ electron configuration</td><td>| <a href="https://www.youtube.com/watch?v=FmQoSenbtnU">คลิปพร้อมซับไตเติ้ล</a> | </td></tr><tr><td></td><td>วาเลนซ์อิเล็กตรอนและพันธะ</td><td>| <a href="https://www.youtube.com/watch?v=NYtPw0WiUCo">คลิปพร้อมซับไตเติ้ล</a> | </td></tr><tr><td></td><td>หมู่ของตารางธาตุ</td><td>| <a href="https://www.youtube.com/watch?v=UXOcWAfBdZg">คลิปพร้อมซับไตเติ้ล</a> | </td></tr><tr><td><b>พันธะและปฏิกิริยาเคมี</b></td><td>พันธะไอออนิก โควาเลนต์ และเมทาลิก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=CGA8sRwqIFg">ที่นี่</a> | </td></tr><tr><td></td><td>อิเลกโทรเนกาทิวิตี</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Rr7LhdSKMxY">ที่นี่</a> | </td></tr><tr><td></td><td>อิเลกโทรเนกาทิวิตีกับพันธะ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=126N4hox9YA">ที่นี่</a> | </td></tr><tr><td></td><td>แรงระหว่างโมเลกุล</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=pBZ-RiT5nEE">ที่นี่</a> | </td></tr><tr><td></td><td>ปฏิกิริยาเคมีเบื้องต้น</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=TStjgUmL1RQ">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">น้ำ กรด และเบส</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>พันธะไฮโดรเจนในน้ำ</b></td><td>พันธะไฮโดรเจนในน้ำ</td><td>| <a href="https://www.youtube.com/watch?v=6G1evL7ELwE">คลิปพร้อมซับไตเติ้ล</a> | </td></tr><tr><td></td><td>น้ำเป็นตัวทำละลาย</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=lCvBp73ZJ-A">ที่นี่</a> | </td></tr><tr><td><b>โคฮีชันและแอดฮีชัน</b></td><td>ผลคาปิลารีและสาเหตุที่เราเห็นรูปวงเดือน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=eQXGpturk3A">ที่นี่</a> | </td></tr><tr><td></td><td>แรงตึงผิว</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=_RTF0DAHBBM">ที่นี่</a> | </td></tr><tr><td><b>อุณหภูมิและการเปลี่ยนสถานะของน้ำ</b></td><td>เลอบรอถาม - ทำไมเหงื่อถึงทำให้คุณเย็นลง?</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=jgnNhL2jSXY">ที่นี่</a> | </td></tr><tr><td></td><td>การเย็นลงจากการระเหย</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=_eEONOJHnEs">ที่นี่</a> | </td></tr><tr><td></td><td>ความร้อนการกลายเป็นไอของน้ำกับเอธานอล</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=bVHuI_QpYIM">ที่นี่</a> | </td></tr><tr><td></td><td>ความร้อนจำเพาะของน้ำ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=h-31O7CaF2o">ที่นี่</a> | </td></tr><tr><td></td><td>น้ำของเหลวหนาแน่นกว่าน้ำของแข็ง (น้ำ)</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Y3ATc9he254">ที่นี่</a> | </td></tr><tr><td><b>กรด เบส และ pH</b></td><td>การเป็นไอออนโดยอัตโนมัติของน้ำ</td><td>| <a href="https://www.youtube.com/watch?v=NUyYlRxMtcs">คลิปพร้อมซับไตเติ้ล</a> | </td></tr><tr><td></td><td>นิยามกรดเบสของอาร์เรเนียส</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Y4HzGldIAss">ที่นี่</a> | </td></tr><tr><td></td><td>นิยามกรดเบสของบรอนสเตด-ลอว์รี</td><td>| <a href="https://www.youtube.com/watch?v=XVOU9c3crbc">คลิปพร้อมซับไตเติ้ล</a> | </td></tr><tr><td></td><td>นิยามคำว่า pH</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=J7-GewgqWUQ">ที่นี่</a> | </td></tr><tr><td></td><td>บทนำเรื่องบัฟเฟอร์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=gjKmQ501sAg">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">สมบัติของคาร์บอน</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>คาร์บอน</b></td><td>คาร์บอนเป็นโครงสร้างพื้นฐานของชีวิต</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=JgYlogdtJDo">ที่นี่</a> | </td></tr><tr><td></td><td>สิ่งมีชีวิตจากซิลิกอน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=FbP9nUrtKto">ที่นี่</a> | </td></tr><tr><td></td><td>การแสดงโครงสร้างของโมเลกุลอินทรีย์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=pMoA65Dj-zk">ที่นี่</a> | </td></tr><tr><td><b>โครงสร้างไฮโดรคาร์บอนและ functional groups</b></td><td>ทบทวนเรื่องไฮโดรคาร์บอน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=oPqq3Ex6viM">ที่นี่</a> | </td></tr><tr><td></td><td>ไอโซเมอร์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=z8M4EciPpYI">ที่นี่</a> | </td></tr><tr><td></td><td>Functional groups</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=iuaYuCreEPk">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">แมคโครโมเลกุล</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>คาร์โบไฮเดรต</b></td><td>โครงสร้างโมเลกุลของกลูโคส</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=-Aj5BTnz-v0">ที่นี่</a> | </td></tr><tr><td></td><td>Dehydration synthesis หรือ condensation reaction</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=FEAXI5XeJ4M">ที่นี่</a> | </td></tr><tr><td></td><td>ไฮโดรไลซิส</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=SOQyiM6V3RQ">ที่นี่</a> | </td></tr><tr><td></td><td>โครงสร้างโมเลกุลของฟรุกโตส</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=662koqcIXSk">ที่นี่</a> | </td></tr><tr><td><b>ลิพิด</b></td><td>โครงสร้างโมเลกุลของไตรกลีเซอไรด์ (ไขมัน)</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=OpyTJbzA7Fk">ที่นี่</a> | </td></tr><tr><td></td><td>ไขมันอิ่มตัว ไขมันไม่อิ่มตัว และไขมันทรานส์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=O9lL2KStW9s">ที่นี่</a> | </td></tr><tr><td></td><td>ภาพรวมเรื่องลิพิด</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Ezp8F7XJHWE">ที่นี่</a> | </td></tr><tr><td><b>กรดนิวคลีอิก</b></td><td>DNA</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=AmOO4j0E408">ที่นี่</a> | </td></tr><tr><td></td><td>DNA replication และ RNA transcription กับ translation</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=6gUY5NoX1Lk">ที่นี่</a> | </td></tr><tr><td></td><td>โครงสร้างโมเลกุลของ DNA</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=L677-Fl0joY">ที่นี่</a> | </td></tr><tr><td></td><td>โครงสร้าง antiparallel ของสาย DNA</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=0CQ5ls3Uc2Q">ที่นี่</a> | </td></tr><tr><td></td><td>โครงสร้างโมเลกุลของ RNA</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=jUUJSOM1ihU">ที่นี่</a> | </td></tr><tr><td><b>โปรตีน</b></td><td>บทนำเรื่องกรดอะมิโน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Pk4d9lY48GI">ที่นี่</a> | </td></tr><tr><td></td><td>การสร้างพันธะเปปไทด์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=nv2kfBFkv4s">ที่นี่</a> | </td></tr><tr><td></td><td>ภาพรวมเรื่องโครงสร้างโปรตีน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=MODnIkQvyz0">ที่นี่</a> | </td></tr><tr><td></td><td>Tertiary structure ของโปรตีน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=7udSVZ7bDb8">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">พลังงานและเอนไซม์</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>พลังงานในเมตาบอลิซึม</b></td><td>เมตาบอลิซึมเบื้องต้น - anabolism กับ catabolism</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=KwNe9x0eChs">ที่นี่</a> | </td></tr><tr><td><b>กฎของเทอร์โมไดนามิกส์</b></td><td>พลังงานเบื้องต้น</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=qzvatDIDXwo">ที่นี่</a> | </td></tr><tr><td></td><td>กฎข้อแรกของเทอร์โมไดนามิกส์เบื้องต้น</td><td>| <a href="https://www.youtube.com/watch?v=vny1qUaToHw">คลิปพร้อมซับไตเติ้ล</a> | </td></tr><tr><td></td><td>เอนโทรปีเบื้องต้น</td><td>| <a href="https://www.youtube.com/watch?v=Svvr5uF_FZ8">คลิปพร้อมซับไตเติ้ล</a> | </td></tr><tr><td></td><td>กฎข้อสองของเทอร์โมไดนามิกส์</td><td>| <a href="https://www.youtube.com/watch?v=Vc8mmZTrNtI">คลิปพร้อมซับไตเติ้ล</a> | </td></tr><tr><td></td><td>กฎข้อสองของเทอร์โมไดนามิกส์และเอนโทรปี</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=axG9HuqViDY">ที่นี่</a> | </td></tr><tr><td></td><td>ทำไมความร้อนถึงเพิ่มเอนโทรปี</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=cKAF1v5hJoE">ที่นี่</a> | </td></tr><tr><td><b>พลังงานอิสระ</b></td><td>พลังงานอิสระกิบส์ กับปฏิกิริยาที่เกิดขึ้นทันที</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=CHHu-iTwHjg">ที่นี่</a> | </td></tr><tr><td></td><td>Endergonic, exergonic, exothermic และ endothermic</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=J2L-X2sUigs">ที่นี่</a> | </td></tr><tr><td><b>ATP และ reaction coupling</b></td><td>ATP - Adenosine triphosphate</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=PK6HmIe2EAg">ที่นี่</a> | </td></tr><tr><td></td><td>ATP hydrolysis mechanism</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=-KE7jTXwNYs">ที่นี่</a> | </td></tr><tr><td></td><td>Reaction coupling เพื่อสร้าง glucose-6-phosphate</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=L8ifD4I1o38">ที่นี่</a> | </td></tr><tr><td><b>เอนไซม์เบื้องต้น</b></td><td>จลนศาสตร์เบื้องต้น</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=__zy-oOLPug">ที่นี่</a> | </td></tr><tr><td></td><td>เอนไซม์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=A90HKrgUOg0">ที่นี่</a> | </td></tr><tr><td><b>Enzyme regulation</b></td><td>Enzyme cofactors และ coenzymes</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=jYR0RlMft8Y">ที่นี่</a> | </td></tr><tr><td></td><td>Competitive inhibition</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=O23i38B2EmA">ที่นี่</a> | </td></tr><tr><td></td><td>Noncompetitive inhibition</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=4xOsAuj0QZg">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">โครงสร้างของเซลล์</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>เซลล์เบื้องต้น</b></td><td>สเกลของเซลล์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=xKJ3txXIuQk">ที่นี่</a> | </td></tr><tr><td></td><td>ทฤษฎีเซลล์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=zk3vlhz1b6k">ที่นี่</a> | </td></tr><tr><td><b>เซลล์โปรคาริโอทและยูคาริโอท</b></td><td>ขนาดเซลล์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=6xx5v3PKZZM">ที่นี่</a> | </td></tr><tr><td></td><td>เซลล์โปรคาริโอทและยูคาริโอท</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=xTnNv7YplSo">ที่นี่</a> | </td></tr><tr><td><b>ทัวร์เซลล์ยูคาริโอท</b></td><td>Endoplasmic reticulum และ Golgi bodies</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=6UqtgH_Zy1Y">ที่นี่</a> | </td></tr><tr><td></td><td>Endomembrane system</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=vC-cEWJxDRY">ที่นี่</a> | </td></tr><tr><td></td><td>ไมโตคอนเดรีย</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=i1dAnpSFbyI">ที่นี่</a> | </td></tr><tr><td></td><td>The cytoskeleton</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=4BAGI6LbHeo">ที่นี่</a> | </td></tr><tr><td><b>โครงสร้างภายนอกเซลล์และทางเชื่อมต่อระหว่างเซลล์</b></td><td>Extracellular matrix</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=cMNx17H3dRU">ที่นี่</a> | </td></tr><tr><td></td><td>ผนังเซลล์ของพืช</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=zdvKhaQxvag">ที่นี่</a> | </td></tr><tr><td></td><td>ภาพรวมเรื่องเซลล์สัตว์กับพืช</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=24YMQ9GvLss">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">เยื่อและการขนส่ง</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>The plasma membrane</b></td><td>Fluid mosaic model ของ cell membranes</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=cP8iQu57dQo">ที่นี่</a> | </td></tr><tr><td><b>การแพร่และออสโมซิส</b></td><td>การแพร่เบื้องต้น</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=a_Y9wBQ610o">ที่นี่</a> | </td></tr><tr><td></td><td>เกรเดียนต์ความเข้มข้น</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=CNP-dCQ-Cmg">ที่นี่</a> | </td></tr><tr><td></td><td>ออสโมซิส</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=rCNlG_j_gSM">ที่นี่</a> | </td></tr><tr><td></td><td>สารละลายไฮโปโทนิก ไอโซโทนิก และไฮเปอร์โทนิก (โทนิกซิตี)</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=afWnU10ZNfg">ที่นี่</a> | </td></tr><tr><td></td><td>การแพร่และออสโมซิส</td><td>| <a href="https://www.youtube.com/watch?v=iX8aBwU87YM">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td><b>Passive transport</b></td><td>Passive transport กับ  selective permeability</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=jQN07Hvq6WI">ที่นี่</a> | </td></tr><tr><td></td><td>Facilitated diffusion</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=8HlVy__J8XA">ที่นี่</a> | </td></tr><tr><td><b>Active transport</b></td><td>Sodium potassium pump</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=vh166DKxYiM">ที่นี่</a> | </td></tr><tr><td></td><td>Electrochemical gradients กับ secondary active transport</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=wbWL2wfvsM8">ที่นี่</a> | </td></tr><tr><td></td><td>Uniporters, symporters และ antiporters</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=-aGYytZ7K7M">ที่นี่</a> | </td></tr><tr><td><b>Bulk transport</b></td><td>Endocytosis, phagocytosis และ pinocytosis</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=QspmZf_yWyU">ที่นี่</a> | </td></tr><tr><td></td><td>Exocytosis</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=VOzV4d0HKis">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">การหายใจของเซลล์</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>การหายใจระดับเซลล์เบื้องต้น</b></td><td>ATP - Adenosine triphosphate</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=PK6HmIe2EAg">ที่นี่</a> | </td></tr><tr><td></td><td>กลไก ATP hydrolysis</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=-KE7jTXwNYs">ที่นี่</a> | </td></tr><tr><td></td><td>การหายใจระดับเซลล์เบื้องต้น</td><td>| <a href="https://www.youtube.com/watch?v=RWuyiCHSlAk">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>ทบทวนเรื่องออกซิเดชันและรีดักชันในมุมมองของชีววิทยา</td><td>| <a href="https://www.youtube.com/watch?v=ktV2JSYt3-Y">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>ออกซิเดชันและรีดักชันในการหายใจระดับเซลล์</td><td>| <a href="https://www.youtube.com/watch?v=64HoW9Ubpto">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td><b>ขั้นตอนของการหายใจระดับเซลล์</b></td><td>ภาพรของการหายใจระดับเซลล์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=9zoS5WGsmpc">ที่นี่</a> | </td></tr><tr><td><b>ไกลโคไลซิส</b></td><td>ภาพรวมเรื่องไกลโคไลซิส</td><td>| <a href="https://www.youtube.com/watch?v=8c44hI9IFt8">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>ขั้นตอนของไกลโคไลซิส</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=ArmlWtDnuys">ที่นี่</a> | </td></tr><tr><td><b>ไพรูเวต ออกซิเดชันและวัฎจักรกรดซิตริก</b></td><td>วัฏจักรเครบส์/กรดซิตริก</td><td>| <a href="https://www.youtube.com/watch?v=X1iBmwitYIg">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td><b>Oxidative phosphorylation</b></td><td>Oxidative phosphorylation กับ electron transport chain</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=J30zpvbmw7s">ที่นี่</a> | </td></tr><tr><td><b>การหายใจระดับเซลล์แบบอื่นๆ</b></td><td>การหมักกรดแลกติก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=lfeXuK8pbFw">ที่นี่</a> | </td></tr><tr><td></td><td>การหมักแอลกอฮอล์หรือเอธานอล</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=D6mRPgvAEOc">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">การสังเคราะห์แสง</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>การสังเคราะห์แสงเบื้องต้น</b></td><td>ATP - Adenosine triphosphate</td><td>| <a href="https://www.youtube.com/watch?v=04aRS5DL6yo">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>กลไก ATP hydrolysis</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=-KE7jTXwNYs">ที่นี่</a> | </td></tr><tr><td></td><td>การสังเคราะห์แสง</td><td>| <a href="https://www.youtube.com/watch?v=X5EXKWQVwQo">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>การแยกขั้นตอนของการสังเคราะห์แสง</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Wt5EMpUt-_g">ที่นี่</a> | </td></tr><tr><td><b>ปฏิกริยาที่ขึ้นอยู่กับแสง</b></td><td>ภาพรวมหลักการของปฏิกิรยาที่ขึ้นอยู่กับแสง</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=vEsAtC9d_MQ">ที่นี่</a> | </td></tr><tr><td></td><td>ผู้เล่นในปฏิกิริยาที่ขึ้นอยู่กับแสง</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=KzpRivhr6HI">ที่นี่</a> | </td></tr><tr><td></td><td>การสังเคราะห์แสง - ภาพรวมเรื่องปฏิกิรยาที่ขึ้นอยู่กับแสง</td><td>| <a href="https://www.youtube.com/watch?v=T6C41ecl_hw">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td><b>วัฎจักรคาลวิน</b></td><td>การสังเคราะห์แสง - วัฏจักรคาลวิน</td><td>| <a href="https://www.youtube.com/watch?v=-Hncjr3IfkQ">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td><b>การหายใจด้วยแสง - C3, C4, และพืชแบบ CAM</b></td><td>การหายใจด้วยแสง</td><td>| <a href="https://www.youtube.com/watch?v=y5SU21dMOts">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>กระบวนการสังเคราะห์ C4</td><td>| <a href="https://www.youtube.com/watch?v=ldWHm3MlfUo">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>พืช CAM</td><td>| <a href="https://www.youtube.com/watch?v=kiD6rohr3cY">คลิปพากย์ภาษาไทย</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">การรับส่งสัญญาณของเซลล์</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>ขั้นตอนการส่งสัญญาณระหว่างเซลล์</b></td><td>ภาพรวมเรื่องการส่งสัญญาณในเซลล์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=FQFBygnIONU">ที่นี่</a> | </td></tr><tr><td></td><td>ตัวอย่างของ signal transduction pathway</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=i7z7f-wnews">ที่นี่</a> | </td></tr><tr><td><b>การสื่อสารในสิ่งมีชีวิตเซลล์เดียว</b></td><td>การส่งสัญญาณในเซลล์ สำหรับการสืบพันธุ์ของยีสต์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=DJfNr8WoXW4">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">การแบ่งเซลล์</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>การแบ่งเซลล์เบื้องต้น</b></td><td>คำศัพท์เรื่อง Fertilization - แกมีตส์ ไซโกตส์ แฮพลอยด์ และดีพลอยด์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=dNp7vErqlaA">ที่นี่</a> | </td></tr><tr><td></td><td>Zygote แยกเป็น somatic กับ germ cells</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=PvoigrzODdE">ที่นี่</a> | </td></tr><tr><td></td><td>โครโมโซม โครมาติด และโครมาติน</td><td>| <a href="https://www.youtube.com/watch?v=FEu4G4ZMIPg">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td><b>วัฏจักรเซลล์และไมโตซิส</b></td><td>Interphase</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=VXLSTd_dlKg">ที่นี่</a> | </td></tr><tr><td></td><td>Mitosis</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=TKGcfbyFXsw">ที่นี่</a> | </td></tr><tr><td><b>ไมโอซิส</b></td><td>การเปรียบเทียบไมโตซิสกับไมโอซิส</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=IQJ4DBkCnco">ที่นี่</a> | </td></tr><tr><td></td><td>Chromosomal crossover ใน meiosis I</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=04gQ0bQu6xk">ที่นี่</a> | </td></tr><tr><td></td><td>เฟสของไมโอซิส I</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=XGWL9jfPHJ8">ที่นี่</a> | </td></tr><tr><td></td><td>เฟสของไมโอซิส II</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=mMCcBsSAlF4">ที่นี่</a> | </td></tr><tr><td><b>Cell cycle regulation, มะเร็ง และสเต็มเซลล์</b></td><td>Embryonic stem cells</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=-yCIMk1x0Pk">ที่นี่</a> | </td></tr><tr><td></td><td>มะเร็ง</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=RZhL7LDPk8w">ที่นี่</a> | </td></tr><tr><td></td><td>Apoptosis</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=gNFDONSjB7Q">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">พันธุศาสตร์คลาสสิคและโมเลกุล</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>พันธุศาสตร์แบบเมนเดล</b></td><td>บทนำเรื่องกรรมพันธุ์</td><td>| <a href="https://www.youtube.com/watch?v=g8iBZCFx8dg">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>ตัวอย่างพร้อมเฉลย - Punnett squares</td><td>| <a href="https://www.youtube.com/watch?v=GdHeN1voEXc">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td><b>การปรับเปลี่ยนพันธุศาสตร์แบบเมนเดล</b></td><td>ตัวอย่างพร้อมเฉลย - Punnett squares</td><td>| <a href="https://www.youtube.com/watch?v=GdHeN1voEXc">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td><b>การเชื่อมโยงทางเพศ การกลายพันธุ์เชิงโครโมโซม และการถ่ายทอดแบบไม่มีนิวเคลียส</b></td><td>ลักษณะที่เชื่อมโยงกับเพศ</td><td>| <a href="https://www.youtube.com/watch?v=kj7myk-duDU">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td><b>พื้นฐานโมเลกุลของพันธุศาสตร์</b></td><td>DNA</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=AmOO4j0E408">ที่นี่</a> | </td></tr><tr><td></td><td>DNA replication และ RNA transcription กับ translation</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=6gUY5NoX1Lk">ที่นี่</a> | </td></tr><tr><td></td><td>Alleles กับยีน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=P0nMnPPdW_k">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">DNA เป็นสารพันธุกรรม</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>โครงสร้างของ DNA</b></td><td>DNA</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=AmOO4j0E408">ที่นี่</a> | </td></tr><tr><td></td><td>โครงสร้างเชิงโมเลกุลของ DNA</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=L677-Fl0joY">ที่นี่</a> | </td></tr><tr><td></td><td>โครงสร้าง antiparallel ของสาย DNA</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=0CQ5ls3Uc2Q">ที่นี่</a> | </td></tr><tr><td><b>การค้นพบ DNA</b></td><td>DNA เป็น "transforming principle"</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=9X12OVvOznU">ที่นี่</a> | </td></tr><tr><td></td><td>Hershey กับ Chase - DNA คือสารพันธุกรรม</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=bNsSaxCsIIg">ที่นี่</a> | </td></tr><tr><td></td><td>การค้นพบโครงสร้างเกลียวคู่ของ DNA</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=hCUce36Ganc">ที่นี่</a> | </td></tr><tr><td><b>DNA replication</b></td><td>DNA replication และ RNA transcription กับ translation</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=6gUY5NoX1Lk">ที่นี่</a> | </td></tr><tr><td></td><td>สายนำและสายตามใน DNA replication</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=eM7arWJJ3zk">ที่นี่</a> | </td></tr><tr><td></td><td>ความเร็วและความแม่นยำของ DNA replication</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=PSl6IXUCNuw">ที่นี่</a> | </td></tr><tr><td></td><td>โครงสร้างเชิงโมเลกุลของ DNA</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=L677-Fl0joY">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">Central dogma (DNA ไป RNA tไปโปรตีน)</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>Central dogma กับรหัสพันธุกรรม</b></td><td>DNA replication และ RNA transcription กับ translation</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=6gUY5NoX1Lk">ที่นี่</a> | </td></tr><tr><td></td><td>Alleles กับยีน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=P0nMnPPdW_k">ที่นี่</a> | </td></tr><tr><td><b>Transcription</b></td><td>DNA replication และ RNA transcription กับ translation</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=6gUY5NoX1Lk">ที่นี่</a> | </td></tr><tr><td></td><td>Transcription กับ mRNA processing</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=JQIwwJqF5D0">ที่นี่</a> | </td></tr><tr><td></td><td>โครงสร้างโมเลกุลของ RNA</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=jUUJSOM1ihU">ที่นี่</a> | </td></tr><tr><td><b>Translation</b></td><td>DNA replication และ RNA transcription กับ translation</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=6gUY5NoX1Lk">ที่นี่</a> | </td></tr><tr><td></td><td>Translation (mRNA ไปโปรตีน)</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=ocAAkB32Hqs">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">Gene regulation</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>Gene regulation ในแบคทีเรีย</b></td><td>Operons และ gene regulation ในแบคทีเรีย</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=N7_K0yl0Egk">ที่นี่</a> | </td></tr><tr><td></td><td>Trp operon</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=EvLy_1_Y3tk">ที่นี่</a> | </td></tr><tr><td></td><td>Lac operon</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=LuOaEe89_HE">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">ชีวเทคโนโลยี</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>DNA cloning</b></td><td>DNA cloning กับ recombinant DNA</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=5ffl-0OYVQU">ที่นี่</a> | </td></tr><tr><td><b>วิธีวิเคราะห์ DNA</b></td><td>Polymerase chain reaction (PCR)</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=nHi-3jP6Mvc">ที่นี่</a> | </td></tr><tr><td></td><td>Gel electrophoresis</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=_EYsykjsfiY">ที่นี่</a> | </td></tr><tr><td><b>สเต็มเซลล์</b></td><td>Embryonic stem cells</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=-yCIMk1x0Pk">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">Developmental biology</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>Development และ differentiation</b></td><td>Cellular specialization (differentiation)</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=YtvL-LQlPrU">ที่นี่</a> | </td></tr><tr><td></td><td>Zygote differentiating ไปเป็น somatic กั germ cells</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=PvoigrzODdE">ที่นี่</a> | </td></tr><tr><td></td><td>Embryonic stem cells</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=-yCIMk1x0Pk">ที่นี่</a> | </td></tr><tr><td><b>Apoptosis</b></td><td>Apoptosis</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=gNFDONSjB7Q">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">แบคทีเรียและอาร์เคีย</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>โครงสร้างโปรคาริโอต</b></td><td>แบคทีเรีย</td><td>| <a href="https://www.youtube.com/watch?v=a0sN4CWXQWI">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>เซลล์โปรคาริโอตและยูคาริโอต</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=xTnNv7YplSo">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">ไวรัส</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>ไวรัส</b></td><td>ไวรัส</td><td>| <a href="https://www.youtube.com/watch?v=0h5Jd7sgQWY">คลิปพร้อมซับไตเติ้ล</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">วิวัฒนาการและต้นไม้ชีวิต</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>วิวัฒนาการและการคัดเลือกโดยธรรมชาติ</b></td><td>วิวัฒนาการและการคัดเลือกโดยธรรมชาติเบื้องต้น</td><td>| <a href="https://www.youtube.com/watch?v=U6IQ0VKb9pw">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>ชี้แจงเรื่องเอป</td><td>| <a href="https://www.youtube.com/watch?v=cHQ3ZWv7hKc">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>การออกแบบของผู้ทรงปัญญากับวิวัฒนาการ</td><td>| <a href="https://www.youtube.com/watch?v=21L_DWRaEiQ">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>ชี้แจงเรื่องวิวัฒนาการ</td><td>| <a href="https://www.youtube.com/watch?v=0uedlUGCjUk">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>การคัดเลือกโดยธรรมชาติกับผีเสื้อนกฮูก</td><td>| <a href="https://www.youtube.com/watch?v=_cCofw8HyKM">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>การแปรผันในสปีชีส์</td><td>| <a href="https://www.youtube.com/watch?v=FomIKXlcj9M">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>หลักฐานสำหรับวิวัฒนาการ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Q-aGAX27SIo">ที่นี่</a> | </td></tr><tr><td></td><td>Bozeman science - หลักฐานสำหรับวิวัฒนาการ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=wLPDmE-UW-E">ที่นี่</a> | </td></tr><tr><td></td><td>Bozeman science - วิวัฒนาการ ต่อ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=03Empd4dgOI">ที่นี่</a> | </td></tr><tr><td><b>พันธุศาสตร์ประชากร</b></td><td>ความถี่ Allele</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Bc9bhLk_AhI">ที่นี่</a> | </td></tr><tr><td></td><td>สมการฮาร์ดี้ ไวน์เบิร์ก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=oc9fJCAIRJs">ที่นี่</a> | </td></tr><tr><td></td><td>การใช้สมการฮาร์ดี้ ไวน์เบิร์ก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=D5NVlAaT-OA">ที่นี่</a> | </td></tr><tr><td></td><td>การอภิปรายเงื่อนไขของฮาร์ดี้ ไวน์เบิร์ก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Q618DALi2eo">ที่นี่</a> | </td></tr><tr><td></td><td>Genetic drift, bottleneck effect และ founder effect</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=IRTn0iNkAHI">ที่นี่</a> | </td></tr><tr><td><b>Speciation กับต้นไม้วิวัฒนาการ</b></td><td>อนุกรมวิธานและต้นไม้แห่งชีวิต</td><td>| <a href="https://www.youtube.com/watch?v=aI4lDU_YpRU">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>สปีชีส์</td><td>| <a href="https://www.youtube.com/watch?v=LOiSRA7ihkc">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>Speciation</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=gnku5AksWvU">ที่นี่</a> | </td></tr><tr><td></td><td>ความหลากหลายทางชีวภาพ และการคัดเลือกโดยธรรมชาติ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=sNgsCT0E7Es">ที่นี่</a> | </td></tr><tr><td></td><td>การแปรผันทางพันธุกรรม การไหลของยีน และสปีชีส์ใหม่</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=11iYk0Yrx3g">ที่นี่</a> | </td></tr><tr><td></td><td>Bozeman science - กลไกที่เพิ่มการแปรผันทางพันธุกรรม</td><td>| ยังไม่เปิดให้แปลซับไตเติ้ลภาษาไทย | </td></tr><tr><td></td><td>การสำรวจต้นไม้ของชีวิต</td><td>| ยังไม่เปิดให้แปลซับไตเติ้ลภาษาไทย | </td></tr><tr><td></td><td>การเข้าใจและสร้าง phylogenetic trees</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=6_XMKmFQ_w8">ที่นี่</a> | </td></tr><tr><td></td><td>Bozeman Science - Cladograms</td><td>| ยังไม่เปิดให้แปลซับไตเติ้ลภาษาไทย | </td></tr><tr><td></td><td>Bozeman science - Phylogenetics</td><td>| ยังไม่เปิดให้แปลซับไตเติ้ลภาษาไทย | </td></tr><tr><td></td><td>Bozeman science - Speciation</td><td>| ยังไม่เปิดให้แปลซับไตเติ้ลภาษาไทย | </td></tr><tr><td></td><td>Bozeman science - Speciation กับการสูญพันธุ์</td><td>| ยังไม่เปิดให้แปลซับไตเติ้ลภาษาไทย | </td></tr><tr><td></td><td>2015 AP Biology อัตนัย 3 - phylogenetic trees</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=yjU49bK1gkA">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">ประวัติศาสตร์ชีวิตบนโลก</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>การเกิดโลกและชีวิตยุคแรก</b></td><td>การเกิดโลก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=VbNXh0GaLYo">ที่นี่</a> | </td></tr><tr><td></td><td>จุดเริ่มต้นของชีวิต</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=nYFuxTXDj90">ที่นี่</a> | </td></tr><tr><td></td><td>กำเนิดชีวิต</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=rMuj2MGeIAc">ที่นี่</a> | </td></tr><tr><td><b>ความหลากหลายของชีวิต</b></td><td>ชั้นโอโซน และยูคาริโอตปรากฎในยุคโปรเตโรโซอิก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=E1P79uFLCMc">ที่นี่</a> | </td></tr><tr><td></td><td>ไขข้อข้องใจเรื่องสิ่งมีชีวิตแรกบนบก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=3gUE_P9T-Wk">ที่นี่</a> | </td></tr><tr><td></td><td>ความหลากหลายทางชีวภาพในยุคพาเนโรโซอิก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=MS7x2hDEhrw">ที่นี่</a> | </td></tr><tr><td></td><td>ภาพรวมเรื่องวิวัฒนาการมนุษย์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=frE1rjhH77Y">ที่นี่</a> | </td></tr><tr><td><b>การวัดอายุด้วยการวัดรังสี</b></td><td>Chronometric revolution</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=5mNTvtjDnP8">ที่นี่</a> | </td></tr><tr><td></td><td>การวัดอายุด้วยคาร์บอน 14 ตอน 1</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=8wYvKeSK1IY">ที่นี่</a> | </td></tr><tr><td></td><td>การวัดอายุด้วยคาร์บอน 14 ตอน 2</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=4YUtnod-YuE">ที่นี่</a> | </td></tr><tr><td></td><td>การวัดอายุด้วยโพแทสเซียม-อาร์กอน (K-Ar)</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=NMZ5kJEviD0">ที่นี่</a> | </td></tr><tr><td></td><td>การคำนวณการวัดอายุ K-Ar</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=iLFcSfzrlMk">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">นิเวศวิทยา</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>นิเวศวิทยาเบื้องต้น</b></td><td>นิเวศวิทยาเบื้องต้น</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=OfV3VNgjpvw">ที่นี่</a> | </td></tr><tr><td><b>นิเวศวิทยาประชากรเบื้องต้น</b></td><td>Life history strategies and fecundity</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=mAdUjImDx58">ที่นี่</a> | </td></tr><tr><td><b>การเติบโตและควบคุมประชากร</b></td><td>การเติบโตของประชากรแบบเอกซ์โพเนนเชียลและลอจิสติก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=KyAKEisg2PQ">ที่นี่</a> | </td></tr><tr><td></td><td>การควบคุมประชากร</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=6IS_M6CX7FE">ที่นี่</a> | </td></tr><tr><td></td><td>วัฏจักรผู้ล่า-เหยื่อ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=NYq2078_xqc">ที่นี่</a> | </td></tr><tr><td></td><td>โทมัส มาลธุสกับการเติบโตประชากร</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=r1ywppAJ1xs">ที่นี่</a> | </td></tr><tr><td><b>นิเวศวิทยาชุมชนเบื้องต้น</b></td><td>ปฏิสัมพันธ์ระหว่างประชากร</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=q2zdiLn3gSE">ที่นี่</a> | </td></tr><tr><td></td><td>วัฏจักรผู้ล่า-เหยื่อ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=NYq2078_xqc">ที่นี่</a> | </td></tr><tr><td><b>โครงสร้างและความหลากหลายในชุมชน</b></td><td>ระบบนิเวศกับเครือข่ายนิเวศวิทยา</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=-bE-Pydad7U">ที่นี่</a> | </td></tr><tr><td></td><td>สปีชีส์หน้าใหม่และความหลากหลายทางชีววิทยา</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=J-ftiWffNTc">ที่นี่</a> | </td></tr><tr><td></td><td>การสืบทอดทางนิเวศวิทยา</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=d7xbyNSxxrI">ที่นี่</a> | </td></tr><tr><td><b>ระบบนิเวศเบื้องต้น</b></td><td>ระบบนิเวศกับ biomes</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=A495e31cDdE">ที่นี่</a> | </td></tr><tr><td></td><td>การไหลของพลังงานและสสารในระบบนิเวศ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=TitrRpMUt0I">ที่นี่</a> | </td></tr><tr><td><b>วัฏจักรชีวธรณีเคมี</b></td><td>ภาพรวมเรื่องวัฏจักรชีวธรณีเคมี</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=ccWUDlKC3dE">ที่นี่</a> | </td></tr><tr><td></td><td>วัฏจักรน้ำ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=jFjI6y46QRk">ที่นี่</a> | </td></tr><tr><td></td><td>วัฏจักรคาร์บอน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=_dYkByQ9Kmg">ที่นี่</a> | </td></tr><tr><td></td><td>วัฏจักรไนโตรเจน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=DsCMYyQ0NWU">ที่นี่</a> | </td></tr><tr><td></td><td>วัฏจักรฟอสฟอรัส</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=tm2LG5ScT1g">ที่นี่</a> | </td></tr><tr><td></td><td>Eutrophication กับ dead zones</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=AxaWXWd2pw4">ที่นี่</a> | </td></tr><tr><td><b>ชีวภูมิศาสตร์</b></td><td>ความหลากหลายทางชีวภาพกระจายทั่วโลกอย่างไร</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=BTOHSRVqN20">ที่นี่</a> | </td></tr><tr><td></td><td>ทำไมความหลากหลายทางชีวภาพจึงไม่กระจายเท่าๆ กัน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=3OAfLjxQUg4">ที่นี่</a> | </td></tr><tr><td></td><td>ความเป็นท้องถิ่นใหม่นำไปสู่ความหลากหลายทางชีวภาพใหม่</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=ACxH7ZVUOLk">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">ความหลากหลายทางชีวภาพและการอนุรักษ์</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>ระบบนิเวศและหน้าที่ของระบบนิเวศ</b></td><td>ระบบนิเวศกับเครือข่ายนิเวศวิทยา</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=-bE-Pydad7U">ที่นี่</a> | </td></tr><tr><td></td><td>หน้าที่ของระบบนิเวศ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=BCH1Gre3Mg0">ที่นี่</a> | </td></tr><tr><td><b>การกระจายตัวของความหลากหลายทางชีวภาพทั่วโลก</b></td><td>biodiversity hotspot คืออะไร?</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=RaQBaVeEbW8">ที่นี่</a> | </td></tr><tr><td></td><td>ความหลากหลายทางชีวภาพกระจายทั่วโลกอย่างไร</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=BTOHSRVqN20">ที่นี่</a> | </td></tr><tr><td></td><td>ทำไมความหลากหลายทางชีวภาพจึงไม่กระจายเท่าๆ กัน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=3OAfLjxQUg4">ที่นี่</a> | </td></tr><tr><td><b>ภัยต่อความหลากหลายทางชีวภาพ</b></td><td>กิจกรรมของมนุษย์ที่เป็นอันตรายต่อความหลากหลายทางชีวภาพ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=2RC3Hsk90t8">ที่นี่</a> | </td></tr><tr><td></td><td>สปีชีส์หน้าใหม่และความหลากหลายทางชีววิทยา</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=J-ftiWffNTc">ที่นี่</a> | </td></tr><tr><td></td><td>การเปลี่ยนแปลงสภาพอากาศมีผลต่อความหลากหลายทางชีวภาพอย่างไร?</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=XFmovUAWQUQ">ที่นี่</a> | </td></tr><tr><td></td><td>ไขปริศนาเรื่องการเป็นกรดของมหาสมุทรและความหลากหลายทางชีวภาพ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=GL7qJYKzcsk">ที่นี่</a> | </td></tr><tr><td></td><td>ความหลากหลายทางชีวภาพและการสูญพันธุ์ อดีตและปัจจุบัน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=v8PPsI0LqOY">ที่นี่</a> | </td></tr><tr><td><b>การปกป้องความหลากหลายทางชีวภาพ</b></td><td>การอนุรักษ์และการแข่งขันเพื่อรักษาความหลากหลายทางชีวภาพ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=-u8xi7KFHY4">ที่นี่</a> | </td></tr><tr><td></td><td>การปกป้องความหลากหลายทางชีวภาพ - พลังของแต่ละคน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=PxAHbuyBvBY">ที่นี่</a> | </td></tr><tr><td></td><td>การปกป้องความหลากหลายทางชีวภาพ - นโยบายท้องถิ่นและทั่วโลก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=mXsFQONwIic">ที่นี่</a> | </td></tr><tr><td><b>ระดับความหลากหลายทางชีวภาพ</b></td><td>ยีนส์และความหลากหลายทางชีวภาพ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=XOxsjdB4-ZQ">ที่นี่</a> | </td></tr><tr><td></td><td>ความหลากหลายทางชีวภาพของระบบนิเวศ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=ixf33dQDlXc">ที่นี่</a> | </td></tr><tr><td></td><td>การค้นพบต้นไม้ของชีวิต</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=AjvLQJ6PIiU">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">ชีววิทยาพฤติกรรม</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>พฤติกรรมสัตว์</b></td><td>การสื่อสารของสัตว์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=1kbZ1JAoi5o">ที่นี่</a> | </td></tr><tr><td></td><td>พฤติกรรมสัตว์ - foraging</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=OrCoshLAOiQ">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">ชีววิทยาของมนุษย์</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>ระบบไหลเวียนโลหิตและทางเดินหายใจ</b></td><td>ปอดและระบบทางเดินหายใจ</td><td>| <a href="https://www.youtube.com/watch?v=i61gNHOUiCw">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>เซลล์เม็ดเลือดแดง</td><td>| <a href="https://www.youtube.com/watch?v=612eK2rczEk">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>ระบบไหลเวียนโลหิตและหัวใจ</td><td>| <a href="https://www.youtube.com/watch?v=JN2zxwnGE5s">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>ฮีโมโกลบิน</td><td>| <a href="https://www.youtube.com/watch?v=NN1BnJ4GyKk">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td><b>เซลล์ประสาทและระบบประสาท</b></td><td>กายวิภาคของเซลล์ประสาท</td><td>| <a href="https://www.youtube.com/watch?v=tDnVj9MgAhM">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>โซเดียม โปแทสเซียมปั๊ม</td><td>| <a href="https://www.youtube.com/watch?v=EXp5yMrk0Io">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>วิดีโอแก้ไขเรื่องโซเดียม โปแทสเซียมปั๊ม</td><td>| <a href="https://www.youtube.com/watch?v=Ym40KaItg48">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>Electrotonic และ action potential</td><td>| <a href="https://www.youtube.com/watch?v=62EMcXqYHow">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>การนำด้วยเกลือในเซลล์ประสาท</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=ikFUv-gdNLQ">ที่นี่</a> | </td></tr><tr><td></td><td>synapse ของเซลล์ประสาท (เคมี)</td><td>| <a href="https://www.youtube.com/watch?v=-RtJOYDAoBQ">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td><b>ไตและกรวยไต</b></td><td>ไตและกรวยไต</td><td>| <a href="https://www.youtube.com/watch?v=lzUOHcoc8Sc">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>แอคทีฟ ทรานสปอร์ตทุติยภูมิในกรวยไต</td><td>| <a href="https://www.youtube.com/watch?v=36rbmBMW4ME">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td><b>กล้ามเนื้อ</b></td><td>ไมโอซินและแอคติน</td><td>| <a href="https://www.youtube.com/watch?v=amQnP_ZWSEU">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>โทรโปไมโอซินกับโทรโปนิน และบทบาทในการควบคุมการหดกล้ามเนื้อ</td><td>| <a href="https://www.youtube.com/watch?v=UKysnUDQ6W0">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>บทบาทของ sarcoplasmic reticulum ในเซลล์กล้ามเนื้อ</td><td>| <a href="https://www.youtube.com/watch?v=jHmJ9Dea3BI">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td></td><td>กายวิภาคของ skeletal muscle fiber</td><td>| <a href="https://www.youtube.com/watch?v=cVO203Inghk">คลิปพากย์ภาษาไทย</a> | </td></tr><tr><td><b>ภูมิคุ้มกันวิทยา</b></td><td>บทบาทของ phagocytes ใน innate หรือ nonspecific immunity</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=O1N2rENXq_Y">ที่นี่</a> | </td></tr><tr><td></td><td>ประเภทของ immune responses - Innate กับ adaptive. humoral กั cell-mediated</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=rp7T4IItbtM">ที่นี่</a> | </td></tr><tr><td></td><td>B lymphocytes (B cells)</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Z36dUduOk1Y">ที่นี่</a> | </td></tr><tr><td></td><td>Professional antigen presenting cells (APC) และ MHC II complexes</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=j_kSmmEpvQk">ที่นี่</a> | </td></tr><tr><td></td><td>Helper T cells</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=uwMYpTYsNZM">ที่นี่</a> | </td></tr><tr><td></td><td>Cytotoxic T cells กั MHC I complexes</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=YdBXHm3edL8">ที่นี่</a> | </td></tr><tr><td></td><td>ทบทวนเรื่อง B cells, CD4+ T cells และ CD8+ T cells</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=xaz5ftvZCyI">ที่นี่</a> | </td></tr><tr><td></td><td>Inflammatory response</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=FXSuEIMrPQk">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">ชีววิทยาของพืช</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>การตอบสนองของพืชต่อแสง</b></td><td>Phototropism</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=2A_LKrLlhxE">ที่นี่</a> | </td></tr><tr><td></td><td>2015 AP Biology อัตนัย ข้อ 5</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=JVbdSwK5i1c">ที่นี่</a> | </td></tr><tr><td></td><td>Photoperiodism</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=AQf3gKTCffs">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+                <div class="panel panel-info">
+                      <!-- Default panel contents -->
+                      <div class="panel-heading">วิชาเร่งรัด - ชีววิทยากับนิเวศวิทยา</div>
+                      <!-- Table -->
+                      <table class="table">
+                      <tr><td><b>วิชาเร่งรัด - ชีววิทยา</b></td><td>Why carbon is a tramp</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=T2DaaGuKOTo">ที่นี่</a> | </td></tr><tr><td></td><td>น้ำ - ของเหลวสุดเจ๋ง</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=QymONNa5C6s">ที่นี่</a> | </td></tr><tr><td></td><td>โมเลกุลเชิงชีววิทยา - คุณคือสิ่งที่คุณกิน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=WtCCobhLqng">ที่นี่</a> | </td></tr><tr><td></td><td>ยูคาริโอโพลิส - เมืองแห่งเซลล์สัตว์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=1aJBToJrlvA">ที่นี่</a> | </td></tr><tr><td></td><td>In da club - เยื่อและการขนส่ง</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=TyZODv-UqvU">ที่นี่</a> | </td></tr><tr><td></td><td>เซลล์พืช</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=d9GkH4vpK3w">ที่นี่</a> | </td></tr><tr><td></td><td>ATP กับการหายใจ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=CIyAs0bxeoI">ที่นี่</a> | </td></tr><tr><td></td><td>การสังเคราะห์แสง</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=WMgJtmjWHYg">ที่นี่</a> | </td></tr><tr><td></td><td>Heredity</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=uSywjCBfSO8">ที่นี่</a> | </td></tr><tr><td></td><td>โครงสร้างดีเอ็นเอกับ repllication</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=l6jdWkH3wfc">ที่นี่</a> | </td></tr><tr><td></td><td>DNA, hot pockets และคำที่ยาวที่สุด</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=I-y5d4Jjzfk">ที่นี่</a> | </td></tr><tr><td></td><td>ไมโตซิส การแยกทางนั้นซับซ้อน</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=X1bmedVziGw">ที่นี่</a> | </td></tr><tr><td></td><td>ไมโอซิส - จุดที่เซ็กซ์เริ่มต้น</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=TX7-Kdn6lJQ">ที่นี่</a> | </td></tr><tr><td></td><td>การคัดเลือกโดยธรรมชาติ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=bQfZXeksysw">ที่นี่</a> | </td></tr><tr><td></td><td>Speciation - Of ligers & men</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=st_gQzP4QxY">ที่นี่</a> | </td></tr><tr><td></td><td>การพัฒนาของสัตว์ - We're just tubes</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=cstic6WHr2E">ที่นี่</a> | </td></tr><tr><td></td><td>การพัฒนาของวิวิฒนาการ - ฟันไก่</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Oqhe31kjlQM">ที่นี่</a> | </td></tr><tr><td></td><td>พันธุศาสตร์ประชากร - เมื่อดาร์วินพบเมนเดล</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=tzqZsPjHFVQ">ที่นี่</a> | </td></tr><tr><td></td><td>Taxonomy - ระบบเติมเต็มชีวิต</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=_2OIPwDEWFQ">ที่นี่</a> | </td></tr><tr><td></td><td>วิวัฒนาการ - It's a Thing</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=WThFuJ6wFcM">ที่นี่</a> | </td></tr><tr><td></td><td>Comparative anatomy -  สิ่งที่ทำให้เราเป็นสัตว์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=77_wq8yFEf8">ที่นี่</a> | </td></tr><tr><td></td><td>สัตว์อย่างง่าย - ฟองน้ำ เยลลี่ และหมึก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=qThlokfE-yk">ที่นี่</a> | </td></tr><tr><td></td><td>สัตว์ที่ซับซ้อน - Annelids และ arthropods</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=DfhhHr1KQic">ที่นี่</a> | </td></tr><tr><td></td><td>Chordates</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=c7Yy9v8dH8s">ที่นี่</a> | </td></tr><tr><td></td><td>พฤติกรรมสัตว์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Kgii4IcKCOg">ที่นี่</a> | </td></tr><tr><td></td><td>ระบบประสาท</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=aP1KZzgR_dg">ที่นี่</a> | </td></tr><tr><td></td><td>ระบบการไหลเวียนและหายใจ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=L1qpKn2hNF0">ที่นี่</a> | </td></tr><tr><td></td><td>ระบบการย่อย</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=qF6TBRaE2_A">ที่นี่</a> | </td></tr><tr><td></td><td>ระบบขับถ่าย - จากหัวใจถึงห้องน้ำ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=UU366tJPovg">ที่นี่</a> | </td></tr><tr><td></td><td>ระบบโครงร่าง - มันมีชีวิต!</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=97FwcpMIUuY">ที่นี่</a> | </td></tr><tr><td></td><td>ปืนใหญ่ - ระบบกล้ามเนื้อ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=5_6m0I1BUp4">ที่นี่</a> | </td></tr><tr><td></td><td>ระบบคุ้มกันของคุณ - นักฆ่าโดยธรรมชาติ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=4xtXBsYENzg">ที่นี่</a> | </td></tr><tr><td></td><td>Great glands - Your endocrine system</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=GZUn5RYkSkE">ที่นี่</a> | </td></tr><tr><td></td><td>The reproductive system - How gonads go</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=HmAyjo0Ghh0">ที่นี่</a> | </td></tr><tr><td></td><td>เก่าแต่แปลก - อาร์เคีย แบคทีเรีย และโปรติสต์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=sPIOgGHhlYo">ที่นี่</a> | </td></tr><tr><td></td><td>The sex lives of nonvascular plants</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=64GBYOsI9jQ">ที่นี่</a> | </td></tr><tr><td></td><td>Vascular plants = Winning!</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=VFtOcdXeP0Y">ที่นี่</a> | </td></tr><tr><td></td><td>พืชกับผึ้ง - การสืบพันธุ์ของพืช</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=H3XT-YU2n0c">ที่นี่</a> | </td></tr><tr><td></td><td>ฟังไจ - ความตายกลายเป็นชีวิต</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=1kEaBXshX90">ที่นี่</a> | </td></tr><tr><td></td><td>นิเวศวิทยา - กฎการใช้ชีวิตบนโลก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=VSUEiTb0tag">ที่นี่</a> | </td></tr><tr><td><b>วิชาเร่งรัด - นิเวศวิทยา</b></td><td>ประวัติศาสตร์ของชีวิตบนโลก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Akpl6wmAfZQ">ที่นี่</a> | </td></tr><tr><td></td><td>นิเวศวิทยาประชการ - ปริศนายุงเท็กซัส</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=IOuZHx6w-gU">ที่นี่</a> | </td></tr><tr><td></td><td>การเติบโตของประชากรมนุษย์</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=WIhR50ttMB4">ที่นี่</a> | </td></tr><tr><td></td><td>นิเวศวิทยาชุมชน - รู้สึกถึงความรัก</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=ymWr2tIwIGo">ที่นี่</a> | </td></tr><tr><td></td><td>นิเวศวิทยาชุมชน 2 - นักล่า</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=DISpHFWYtRM">ที่นี่</a> | </td></tr><tr><td></td><td>การสืบทอดทางนิเวศวิทยา - การเปลี่ยนแปลงนั้นดี</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=vNbgztA5WVc">ที่นี่</a> | </td></tr><tr><td></td><td>นิเวศวิทยาในระบบนิเวศ - เชื่อมโยงในสายใย</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=Jh4UsA2see0">ที่นี่</a> | </td></tr><tr><td></td><td>วัฏจักรไฮโดรโลจิกกับคาร์บอน - รีไคเซิลตลอดนะ!</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=yrxAKGGEWZY">ที่นี่</a> | </td></tr><tr><td></td><td>วัฏจักรไนโตรเจนกับฟอสฟอรัส - รีไคเซิลตลอดนะ!</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=6rwoktPmqpY">ที่นี่</a> | </td></tr><tr><td></td><td>ผลกระทบของมนุษย์ต่อสิ่งแวดล้อม 5 อย่าง</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=54JkvkIT0Dc">ที่นี่</a> | </td></tr><tr><td></td><td>มลพิษ</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=xGBA1_VVvGI">ที่นี่</a> | </td></tr><tr><td></td><td>นิเวศวิทยาอนุรักษ์และฟื้นฟู</td><td>| ยังไม่มีซับไตเติ้ลภาษาไทย ช่วยแปลได้ <a href="https://www.youtube.com/timedtext_video?v=3BBqL_F9fxQ">ที่นี่</a> | </td></tr>
+                      </table>
+                    </div>
+                
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017 Khan Academy Thailand </p>
+      </footer>
+	  
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
